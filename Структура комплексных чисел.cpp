@@ -32,15 +32,14 @@ public:
 };
 int main()
 {
-	setlocale(LC_ALL, "Russian");
 	int re, re1, im, im1;
-	cout << "¬ведите re: ";
+	cout << "Vvedite re: ";
 	cin >> re;
-	cout << "¬ведите im: ";
+	cout << "Vvedite im: ";
 	cin >> im;
-	cout << "¬ведите re1: ";
+	cout << "Vvedite re1: ";
 	cin >> re1;
-	cout << "¬ведите im1: ";
+	cout << "Vvedite im1: ";
 	cin >> im1;
 	Complex a(re, im), b(re1, im1);
 	(a * b).out("a*b= ");
